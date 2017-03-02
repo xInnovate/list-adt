@@ -25,7 +25,7 @@ void List::insert(int num, int k)//insert num at k-th position of list
 	    iPtr = iPtr->link;
 
     newPtr = iPtr->link;
-    iPtr->link = newPtr->link;
+    iPtr->link = newPtr->link; //i.e null = 5; this is where the problem is
 
 
 }
